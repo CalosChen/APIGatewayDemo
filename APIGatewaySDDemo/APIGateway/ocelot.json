@@ -14,7 +14,8 @@
             },
             "FileCacheOptions": { "TtlSeconds": 15 },
             "LoadBalancerOptions": {
-                "Type": "RoundRobin"
+                // "Type": "RoundRobin"
+                "Type": "LeastConnection"
             }
         },
         {

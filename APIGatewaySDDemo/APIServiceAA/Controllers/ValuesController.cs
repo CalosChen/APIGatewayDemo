@@ -9,7 +9,7 @@
         [HttpGet]
         public string Get()
         {
-            return $"I'm ServiceA -- {Request.Host.Port}";
+            return $"I'm ServiceAA -- {Request.Host.Port}";
         }
 
         [HttpGet]
